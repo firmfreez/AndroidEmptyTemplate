@@ -1,7 +1,8 @@
-package com.firmfreez.android.androidemptytemplate
+package com.firmfreez.android.androidemptytemplate.view.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.firmfreez.android.androidemptytemplate.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

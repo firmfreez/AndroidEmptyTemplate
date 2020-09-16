@@ -29,6 +29,10 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
+    dataBinding {
+        enabled = true
+    }
 }
 
 dependencies {
@@ -66,6 +70,9 @@ dependencies {
     kapt "com.github.bumptech.glide:compiler:4.10.0"
     implementation "com.github.bumptech.glide:okhttp3-integration:4.9.0"
 
+    //Picasso
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+
     // AndroidX
     implementation 'androidx.core:core:1.3.1'
     implementation "androidx.core:core-ktx:1.3.1"
@@ -85,5 +92,10 @@ dependencies {
     implementation "android.arch.paging:runtime:1.0.1"
     implementation "androidx.palette:palette:1.0.0"
 
+    // Navigation
+    implementation "androidx.navigation:navigation-fragment-ktx:2.3.0"
+    implementation "androidx.navigation:navigation-ui-ktx:2.3.0"
 
+    //Paging Library
+    implementation "androidx.paging:paging-runtime:3.0.0-alpha06"
 }
